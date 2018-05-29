@@ -10,7 +10,7 @@ class Nav extends React.Component {
         <div className="container">
           <div className="nav__logo">
             <Link className="logo logo-white" to="/" />
-          </div>
+          </div> 
           <div className="nav__wrapper">
             <ul className="nav__list">
               <li className="menu-item has-dropdown">
