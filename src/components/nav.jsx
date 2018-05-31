@@ -21,36 +21,36 @@ class Nav extends React.Component {
               <Link to="/services">Services</Link>
                 <ul className="sub-menu">
                   <li className="menu-item">
-                    <a href="services/team-extension.html">Team Extension</a>
+                    <Link to="/services/team-extension">Team Extension</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/enterprise-development.html">
+                    <Link to="/services/enterprise-development">
                       Product Engineering
-                    </a>
+                    </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/mobile-development.html">
+                    <Link to="/services/mobile-development">
                       Mobile Development
-                    </a>
+                    </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/it-consulting-services.html">
+                    <Link to="/services/it-consulting-services">
                       Consulting
-                    </a>
+                    </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/dev-ops.html">DevOps</a>
+                    <Link to="/services/dev-ops">DevOps</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/design-lab.html">UI/UX Design</a>
+                    <Link to="/services/design-lab">UI/UX Design</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/qa-testing.html">Quality Assurance</a>
+                    <Link to="/services/qa-testing">Quality Assurance</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="services/software-maintenance-support.html">
+                    <Link to="/services/software-maintenance-support">
                       Maintenance and Support
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

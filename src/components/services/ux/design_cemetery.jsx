@@ -1,19 +1,12 @@
 import React from "react";
 
-class Cemetery extends React.Component {
+class DesignCemetery extends React.Component {
   render() {
     return (
       <section className="cemetery">
         <div className="container">
           <div className="cemetery__title">
-            <h2>Who We Are</h2>
-            <p>
-              Intellectsoft is a global full-cycle software development company
-              with niche expertise and a focus on the latest technologies. Since
-              2007, we have been helping companies achieve their goals with
-              impactful, industry-specific software solutions. We are proud to
-              earn the trust of world-class brands and Fortune 500 companies.
-            </p>
+            <h2>Success stories</h2>
           </div>
           <div id="cemetery" className="owl-carousel owl-theme">
             <div className="item">
@@ -21,30 +14,14 @@ class Cemetery extends React.Component {
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/land-rover.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/land-rover.svg")})`
                 }}
               />
               <div
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/harley-davidson.svg")})`
-                }}
-              />
-            </div>
-            <div className="item">
-              <div
-                className="cemetery__image"
-                style={{
-                  backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/universal.svg")})`
-                }}
-              />
-              <div
-                className="cemetery__image"
-                style={{
-                  backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/nestle.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/harley-davidson.svg")})`
                 }}
               />
             </div>
@@ -53,30 +30,14 @@ class Cemetery extends React.Component {
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/nhs.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/universal.svg")})`
                 }}
               />
               <div
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/clinique.svg")})`
-                }}
-              />
-            </div>
-            <div className="item">
-              <div
-                className="cemetery__image"
-                style={{
-                  backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/guinness.svg")})`
-                }}
-              />
-              <div
-                className="cemetery__image"
-                style={{
-                  backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/audi.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/nestle.svg")})`
                 }}
               />
             </div>
@@ -85,30 +46,14 @@ class Cemetery extends React.Component {
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/bombardier.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/nhs.svg")})`
                 }}
               />
               <div
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/eurostar.svg")})`
-                }}
-              />
-            </div>
-            <div className="item">
-              <div
-                className="cemetery__image"
-                style={{
-                  backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/ernst-young.svg")})`
-                }}
-              />
-              <div
-                className="cemetery__image"
-                style={{
-                  backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/giant.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/clinique.svg")})`
                 }}
               />
             </div>
@@ -117,14 +62,62 @@ class Cemetery extends React.Component {
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/jaguar-talk.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/guinness.svg")})`
                 }}
               />
               <div
                 className="cemetery__image"
                 style={{
                   backgroundImage:
-                    `url(${require("../../assets/5be2fa1f/img/clients-logo/hoosbaa.svg")})`
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/audi.svg")})`
+                }}
+              />
+            </div>
+            <div className="item">
+              <div
+                className="cemetery__image"
+                style={{
+                  backgroundImage:
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/bombardier.svg")})`
+                }}
+              />
+              <div
+                className="cemetery__image"
+                style={{
+                  backgroundImage:
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/eurostar.svg")})`
+                }}
+              />
+            </div>
+            <div className="item">
+              <div
+                className="cemetery__image"
+                style={{
+                  backgroundImage:
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/ernst-young.svg")})`
+                }}
+              />
+              <div
+                className="cemetery__image"
+                style={{
+                  backgroundImage:
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/giant.svg")})`
+                }}
+              />
+            </div>
+            <div className="item">
+              <div
+                className="cemetery__image"
+                style={{
+                  backgroundImage:
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/jaguar-talk.svg")})`
+                }}
+              />
+              <div
+                className="cemetery__image"
+                style={{
+                  backgroundImage:
+                    `url(${require("../../../assets/5be2fa1f/img/clients-logo/hoosbaa.svg")})`
                 }}
               />
             </div>
@@ -143,4 +136,4 @@ class Cemetery extends React.Component {
   }
 }
 
-export default Cemetery;
+export default DesignCemetery;
