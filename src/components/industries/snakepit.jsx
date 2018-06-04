@@ -2,7 +2,7 @@ import React from "react";
 
 class Snakepit extends React.Component {
   render() {
-    return (
+    return ( 
       <div className="snakepit">
         <div className="container">
           <div

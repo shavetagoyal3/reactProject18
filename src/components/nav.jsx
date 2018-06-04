@@ -55,35 +55,35 @@ class Nav extends React.Component {
                 </ul>
               </li>
               <li className="menu-item has-dropdown">
-                <Link to="/industries">Industries</Link>
+                <Link to="/platforms">Industries</Link>
                 <ul className="sub-menu">
                   <li className="menu-item">
-                    <a href="platforms/ar-construction.html">AR Construction</a>
+                    <Link to="/platforms/ar-construction">AR Construction</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/healthcare.html">Healthcare</a>
+                    <Link to="/platforms/healthcare">Healthcare</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/insurance.html">Insurance</a>
+                    <Link to="/platforms/insurance">Insurance</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/ecommerce-retail.html">
+                    <Link to="/platforms/ecommerce-retail">
                       Retail & E-Commerce
-                    </a>
+                    </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/hospitality.html">
+                    <Link to="/platforms/hospitality">
                       Travel & Hospitality
-                    </a>
+                    </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/events.html">Events & Venues</a>
+                    <Link to="/platforms/events">Events & Venues</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/sports-apps.html">Sports & Teams</a>
+                    <Link to="/platforms/sports-apps">Sports & Teams</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="platforms/music.html">Musicians & Bands</a>
+                    <Link to="/platforms/music">Musicians & Bands</Link>
                   </li>
                 </ul>
               </li>
@@ -129,9 +129,9 @@ class Nav extends React.Component {
             </ul>{" "}
           </div>
           <div className="nav__btn">
-            <a className="get-touch btn" href="contacts.html">
+            <Link className="get-touch btn" to="/contacts">
               Get in touch
-            </a>{" "}
+            </Link>
             <a
               id="c-button--push-left"
               href="#"

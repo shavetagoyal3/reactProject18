@@ -537,13 +537,13 @@ class MDContent extends React.Component {
                       height={7}
                       viewBox="0 0 11 7"
                     >
-                      <path
-                        fill="none"
-                        fillRule="evenodd"
-                        stroke="#323232"
-                        d="M11 1L5.5 6 0 1"
-                        opacity=".6"
-                      />
+                    <path
+                      fill="none"
+                      fillRule="evenodd"
+                      stroke="#323232"
+                      d="M11 1L5.5 6 0 1"
+                      opacity=".6"
+                    />
                     </svg>
                   </div>
                   <p>

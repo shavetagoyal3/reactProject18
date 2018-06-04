@@ -21,11 +21,20 @@ import QATesting from './services/quality_assurance/quality_assurance.jsx';
 import SoftwareMaintenanceSupport from './services/maintenance/maintenance.jsx';
 
 import Industries from './industries/industries.jsx';
+import AR from './industries/ar/ar.jsx';
+import Events from './industries/events/events.jsx';
+import Healthcare from './industries/healthcare/healthcare.jsx';
+import Insurance from './industries/insurance/insurance.jsx';
+import Music from './industries/music/music.jsx';
+import Retail from './industries/retail/retail.jsx';
+import Sports from './industries/sports/sports.jsx';
+import Travel from './industries/travel/travel.jsx';
+
 import Resources from './resources/resources.jsx';
 import Clients from './clients/clients.jsx';
 import Company from './company/companies.jsx';
 
-
+import Contacts from './contact/contacts.jsx';
 
 class Main extends React.Component {
   render() {
@@ -53,10 +62,22 @@ class Main extends React.Component {
 		      <Route path='/services/qa-testing' component={QATesting}/>
 		      <Route path='/services/software-maintenance-support' component={SoftwareMaintenanceSupport}/>
 
-		      <Route exact path='/industries' component={Industries}/>
+		      <Route exact path='/platforms' component={Industries}/>
+
+		      <Route exact path='/platforms/ar-construction' component={AR}/>
+		      <Route exact path='/platforms/events' component={Events}/>
+		      <Route exact path='/platforms/healthcare' component={Healthcare}/>
+		      <Route exact path='/platforms/insurance' component={Insurance}/>
+		      <Route exact path='/platforms/music' component={Music}/>
+		      <Route exact path='/platforms/ecommerce-retail' component={Retail}/>
+		      <Route exact path='/platforms/sports-apps' component={Sports}/>
+		      <Route exact path='/platforms/hospitality' component={Travel}/>
+
 		      <Route exact path='/resources' component={Resources}/>
 		      <Route exact path='/clients' component={Clients}/>
 		      <Route exact path='/company' component={Company}/>
+
+		      <Route exact path='/contacts' component={Contacts}/>
 
 		    </Switch>
     	);

@@ -60,10 +60,7 @@ jQuery('#formRanking').owlCarousel({
     autoplay: true,
     items: 3	
 });
-jQuery('.owl-carousel').owlCarousel({
-    loop: true,
-    autoplay: true
-});
+
     var t = document.querySelector(".offers-tab");
      if (t) {
 		    t.querySelectorAll(".offers-tablinks").forEach(function(t) {
