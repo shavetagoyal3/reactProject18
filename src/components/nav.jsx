@@ -91,13 +91,13 @@ class Nav extends React.Component {
                 <Link to="/resources">Resources</Link>
                 <ul className="sub-menu">
                   <li className="menu-item">
-                    <a href="blog/index.html">Blog</a>
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="blog/news.html">News</a>
+                    <Link to="/blog/news">News</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="docs.html">Insights</a>
+                    <Link to="/docs">Insights</Link>
                   </li>
                 </ul>
               </li>
@@ -105,7 +105,7 @@ class Nav extends React.Component {
                 <Link to="/clients">Clients</Link>
                 <ul className="sub-menu">
                   <li className="menu-item">
-                    <a href="cases.html">Client Success</a>
+                    <Link to="/cases">Client Success</Link>
                   </li>
                 </ul>
               </li>
@@ -113,20 +113,20 @@ class Nav extends React.Component {
                 <Link to="/company">Company</Link>
                 <ul className="sub-menu">
                   <li className="menu-item">
-                    <a href="about.html">About</a>
+                    <Link to="/about">About</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="partners.html">Partners</a>
+                    <Link to="/partners">Partners</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="team.html">Team</a>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="careers.html">Careers</a>
+                    <Link to="/careers">Careers</Link>
                   </li>
                 </ul>
               </li>
-            </ul>{" "}
+            </ul>
           </div>
           <div className="nav__btn">
             <Link className="get-touch btn" to="/contacts">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class FooterMenu extends React.Component {
   render() {
@@ -99,25 +100,25 @@ class FooterMenu extends React.Component {
           </ul>
         </li>
         <li className="has-dropdown">
-          <a href="about.html">Company</a>
+          <Link to="\about">Company</Link>
           <ul className="sub-menu">
             <li>
-              <a href="about.html">About</a>
+              <Link to="\about">About</Link>
             </li>
             <li>
-              <a href="contacts.html">Contacts</a>
+              <Link to="\contacts">Contacts</Link>
             </li>
             <li>
-              <a href="team.html">Team</a>
+              <Link to="\team">Team</Link>
             </li>
             <li>
-              <a href="partners.html">Partners</a>
+              <Link to="\partners">Partners</Link>
             </li>
             <li>
-              <a href="cases.html">Cases</a>
+              <Link to="\cases">Cases</Link>
             </li>
             <li>
-              <a href="blog/index.html">Blog</a>
+              <Link to="\blog">Blog</Link>
             </li>
             <li>
               <a href="sitemap.html">Sitemap</a>

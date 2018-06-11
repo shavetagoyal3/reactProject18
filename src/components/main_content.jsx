@@ -30,11 +30,21 @@ import Retail from './industries/retail/retail.jsx';
 import Sports from './industries/sports/sports.jsx';
 import Travel from './industries/travel/travel.jsx';
 
-import Resources from './resources/resources.jsx';
-import Clients from './clients/clients.jsx';
-import Company from './company/companies.jsx';
-
 import Contacts from './contact/contacts.jsx';
+
+import Resources from './resources/resources.jsx';
+import Blog from './resources/blog/blog.jsx';
+import News from './resources/news/news.jsx';
+import Docs from './resources/docs/docs.jsx';
+
+import Clients from './clients/clients.jsx';
+import Cases from './clients/cases/cases.jsx';
+
+import Company from './company/companies.jsx';
+import About from './company/about/about.jsx';
+import Partners from './company/partners/partners.jsx';
+import Team from './company/team/team.jsx';
+import Careers from './company/careers/careers.jsx';
 
 class Main extends React.Component {
   render() {
@@ -78,6 +88,16 @@ class Main extends React.Component {
 		      <Route exact path='/company' component={Company}/>
 
 		      <Route exact path='/contacts' component={Contacts}/>
+
+		      <Route exact path='/blog' component={Blog}/>
+		      <Route exact path='/blog/news' component={News}/>
+		      <Route exact path='/docs' component={Docs}/>
+
+		      <Route exact path='/cases' component={Cases}/>
+		      <Route exact path='/about' component={About}/>
+		      <Route exact path='/partners' component={Partners}/>
+		      <Route exact path='/team' component={Team}/>
+		      <Route exact path='/careers' component={Careers}/>
 
 		    </Switch>
     	);

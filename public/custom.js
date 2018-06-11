@@ -61,7 +61,7 @@ jQuery('#formRanking').owlCarousel({
     items: 3	
 });
 
-    var t = document.querySelector(".offers-tab");
+  /*  var t = document.querySelector(".offers-tab");
      if (t) {
 		    t.querySelectorAll(".offers-tablinks").forEach(function(t) {
             t.addEventListener("click", function(t) {
@@ -83,7 +83,7 @@ jQuery('#formRanking').owlCarousel({
                 void 0 !== e && (o = o.attr("id", e)), void 0 !== n && (o = o.attr("class", n + " replaced-svg")), o = o.removeAttr("xmlns:a"), t.replaceWith(o)
             }, "xml")
         })
-		 }
+		 }*/
 
 });
 

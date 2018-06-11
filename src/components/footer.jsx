@@ -1,6 +1,7 @@
 import React from "react";
 import FooterMenu from "./footer_menu.jsx";
 import FooterCopyright from "./footer_copyright.jsx";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   render() {
